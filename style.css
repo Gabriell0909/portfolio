@@ -1,0 +1,154 @@
+ *{
+    margin: 9;
+    padding: 9;
+}
+
+.imagem{
+    width: 30%;  
+}
+
+.imagem-html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hb{
+ background-color:#EA7627;
+ font-family: sans-serif;
+ font-size: 25px;
+ text-align: center;
+}
+
+#pb{
+font-family: sans-serif;
+text-align: center;
+font-size: larger;
+}
+
+#bd{
+background-color:white;
+}
+
+/*botão do t1*/
+
+  button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #171717;
+    padding: 1em 2em;
+    border: none;
+    border-radius: .6rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  button span:not(:nth-child(6)) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    background-color: #0c66ed;
+    border-radius: 50%;
+    transition: .6s ease;
+  }
+ 
+  #botão span:not(:nth-child(6)){
+  background-color: #EA7627;
+  }
+
+  #button span:nth-child(6) {
+    position: relative;
+  }
+  
+  button span:nth-child(6){
+    color: white;
+  }
+   
+  .link-btn{
+    text-decoration: none;
+  }
+                          
+  button span:nth-child(1) {
+    transform: translate(-3.3em, -4em);
+  }
+  
+  button span:nth-child(2) {
+    transform: translate(-6em, 1.3em);
+  }
+  
+  button span:nth-child(3) {
+    transform: translate(-.2em, 1.8em);
+  }
+  
+  button span:nth-child(4) {
+    transform: translate(3.5em, 1.4em);
+  }
+  
+  button span:nth-child(5) {
+    transform: translate(3.5em, -3.8em);
+  }
+  
+  button:hover span:not(:nth-child(6)) {
+    transform: translate(-50%, -50%) scale(4);
+    transition: 1.5s ease;
+}
+
+/*fim do botão t1*/
+
+
+/*config t1*/ 
+
+.imgt1{
+    width: 30%;
+  }
+  
+  .imagem-css{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  #hrd{
+    text-align: center;
+  }
+  
+  strong{
+    font-size: 50px;
+  }
+  
+  body{
+      background-color: rgb(255, 252, 252);
+      color: rgb(0, 4, 7);
+      }
+      
+      strong{
+          color: rgb(0, 0, 0);
+      }
+      *{
+      margin: 9;
+      padding: 9;
+      }
+      
+        .apresentcao__links{
+         display: flex;
+         justify-content: space-between;
+      }
+      
+       .apresentacao__link__link{
+      background-color: bisque;
+      width: 280px;
+      text-align:center;
+      border-radius:16px;
+      font-size:24;
+      font-weight: 600;
+      padding: 21.5px 0;
+      text-decoration: none;
+      color: rgb(103, 248, 200);
+      font-family:'montserrat',sans-serif;
+      }
+
